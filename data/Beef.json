@@ -1,1 +1,12 @@
-
+[
+    {"name": "Steak", "description": "A juicy and flavorful steak cooked to perfection."},
+    {"name": "Beef Stew", "description": "A hearty stew made with tender beef chunks and a medley of vegetables."},
+    {"name": "Beef Tacos", "description": "Soft or crunchy tacos filled with seasoned ground beef and toppings."},
+    {"name": "Beef Curry", "description": "A flavorful curry dish made with tender beef and aromatic spices."},
+    {"name": "Beef Stir-Fry", "description": "Thinly sliced beef stir-fried with colorful vegetables and a savory sauce."},
+    {"name": "Beef Enchiladas", "description": "Rolled tortillas filled with seasoned beef, topped with enchilada sauce and cheese."},
+    {"name": "Beef Roast", "description": "A succulent beef roast slow-cooked with herbs and vegetables."},
+    {"name": "Beef Lasagna", "description": "Layered pasta, rich meat sauce, and creamy cheese make this classic dish."},
+    {"name": "Beef Pho", "description": "A Vietnamese noodle soup with thinly sliced beef and aromatic broth."},
+    {"name": "Beef Pot Pie", "description": "A comforting pot pie filled with tender beef chunks and vegetables."} 
+]
