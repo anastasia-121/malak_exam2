@@ -1,1 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(255, 244, 226);
+  
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .menu-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
+  .container {
+   position: relative;
+   top: 40px;
+   margin: 15px; 
+  }
+  
+  .item {
+    position: relative;
+    top: 0;
+    background-color:rgb(172, 179, 176);
+    /* margin-bottom: 15px;  */
+    margin: 15px ;
+    padding: 25px;
+    border: 1px solid #000;
+
+  }
+  .item:hover {
+    background-color: maroon ;
+    cursor: pointer;
+  }
+  .item p {
+    margin-top: 18px;
+    text-align: justify;
+    font-size:100%;
+  }
+  
+  .item-title {
+    position: absolute;
+    top:0;
+    left: 0px; 
+    padding: 6px 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #000;
+  }
+
+  #title-1 {
+    background-color:rgb(177, 106, 129) ;
+  } 
+  
+  #title-2 {
+    background-color:rgb(252, 137, 200) ;
+  }
+  
+  #title-3 {
+    background-color:pink ;
+
+  }
+  #title-x{
+    background-color:teal ;
+  }
+  
+  .back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+  /* Responsive Framework */
+  /* large */
+  @media (min-width: 1200px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;  
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+  }
+  
+  /* medium */
+  @media (min-width: 850px) and (max-width: 1199px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  /* small */
+  @media (max-width: 849px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
