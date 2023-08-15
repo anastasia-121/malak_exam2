@@ -1,1 +1,12 @@
+[
+    {"name": "Nigiri", "description": "Classic bite-sized sushi with a slice of fish on top of a small bed of rice."},
+    {"name": "Maki", "description": "Sushi rolls with a variety of fillings wrapped in seaweed and rice."},
+    {"name": "Temaki", "description": "Hand-rolled cone-shaped sushi with various ingredients."},
+    {"name": "Chirashi", "description": "A bowl of sushi rice topped with a variety of sashimi and other ingredients."},
+    {"name": "Inari", "description": "Sushi rice stuffed in sweet soy-marinated tofu pockets."},
+    {"name": "Gunkan", "description": "Small cups of sushi rice with a seaweed wrap, often filled with seafood and roe."},
+    {"name": "Sashimi", "description": "Thin slices of fresh raw fish, served without rice."},
+    {"name": "Uramaki", "description": "Inside-out sushi rolls with rice on the outside and fillings on the inside."},
+    {"name": "Oshizushi", "description": "Pressed sushi made using a special wooden mold."}
+  ]
 
